@@ -1,0 +1,30 @@
+# Byte compiled and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Large datasets and tabular data files (>100MB)
+student_resource/dataset/
+*.tsv
+*.csv
+output/
+output_v4/
+output_v*/
+
+# Precomputed vector embeddings and checkpoints
+*.npy
+*.progress
+
+# Large binary media
+docs/*.mp4
+*.mp4
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Local legacy scratch and archive
+archive/
+.system_generated/
+scratch/
